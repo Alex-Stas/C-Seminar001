@@ -11,12 +11,12 @@ int secondnum = int.Parse(second);
 
 if (firstnum == secondnum * secondnum)
 {
-// string answer = "Yes";
-Console.WriteLine ("Yes");
-} 
+    // string answer = "Yes";
+    Console.WriteLine("Yes");
+}
 else
 {
-// string answer = "No";
-Console.WriteLine ("No");
-} 
+    // string answer = "No";
+    Console.WriteLine("No");
+}
 // Console.WriteLine (answer);
