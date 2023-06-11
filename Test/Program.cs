@@ -1,17 +1,17 @@
-﻿/*
- int test = 22;
-
+﻿int test = 22;
+string reply = "OK";
 if (test == 22) 
 {
-string answer = "yes";    
+string reply = "yes";    
 }
 else 
 {
-string answer = "no";
+string reply = "no";
 }
 
-Console.WriteLine(answer);
-*/
+Console.WriteLine(reply);
 
-int x = int.Parse(Console.ReadLine());
-Console.WriteLine(x);
+Console.WriteLine($"{reply}");
+
+// int x = int.Parse(Console.ReadLine());
+// Console.WriteLine(x);
