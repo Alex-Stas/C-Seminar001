@@ -8,15 +8,16 @@ string second = Console.ReadLine();
 
 int firstnum = int.Parse(first);
 int secondnum = int.Parse(second);
+string answer = "Ok";
 
 if (firstnum == secondnum * secondnum)
 {
-    // string answer = "Yes";
-    Console.WriteLine("Yes");
+    answer = "Yes";
+    // Console.WriteLine("Yes");
 }
 else
 {
-    // string answer = "No";
-    Console.WriteLine("No");
+    answer = "No";
+    // Console.WriteLine("No");
 }
-// Console.WriteLine (answer);
+Console.WriteLine (answer);

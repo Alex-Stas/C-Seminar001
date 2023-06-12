@@ -1,12 +1,12 @@
-﻿int test = 22;
+﻿int test = 222;
 string reply = "OK";
 if (test == 22) 
 {
-string reply = "yes";    
+reply = "yes";    
 }
 else 
 {
-string reply = "no";
+reply = "no";
 }
 
 Console.WriteLine(reply);
